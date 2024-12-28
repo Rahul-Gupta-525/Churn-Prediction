@@ -36,7 +36,6 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
-![Churn Rate by Metrics](./3.png)
 
 
 ## Technologies Used

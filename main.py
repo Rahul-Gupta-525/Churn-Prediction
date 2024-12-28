@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import joblib
 import plotly.express as px
 from PIL import Image
 import matplotlib.pyplot as plt
@@ -34,7 +35,7 @@ feature_importance_df = pd.read_excel(feature_importance_file)
 # Load the saved model
 model_filename = "small_churn_model.pkl"
 with open(model_filename, "rb") as file:
-    rf_model = pickle.load(file)
+    rf_model = joblib.load(file)
 
 # Default input values (from the first row of your example data)
 default_values = {

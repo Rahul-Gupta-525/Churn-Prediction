@@ -40,7 +40,6 @@ with open(model_filename, "rb") as file:
 # Default input values (from the first row of your example data)
 default_values = {
     'Payment Delay': 27,
-    'CustomerID': 1,
     'Tenure': 25,
     'Usage Frequency': 14,
     'Gender_Male': 0,
@@ -48,7 +47,7 @@ default_values = {
 }
 
 # Sidebar setup
-st.sidebar.image("simple logo for Customer Churn Prediction project.png", use_column_width=True)
+st.sidebar.image("simple logo for Customer Churn Prediction project.png", use_container_width=True)
 st.sidebar.header("🔮 Churn Prediction")
 
 # Input fields in the sidebar with default values

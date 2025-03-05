@@ -66,7 +66,7 @@ https://churn-prediction-drgm8euxspuldhvhk2vgsa.streamlit.app/
 
 
 ## Team
-- **Ankit Kumar (Team Lead)**
+- **Ankit Kumar**
 - **Rahul Gupta**
 
 ## License
